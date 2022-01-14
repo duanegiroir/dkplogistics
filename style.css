@@ -71,6 +71,48 @@ p {
   padding: 0 1.5em;
 }
 
+#thankyou {
+  min-height: 450px;
+  color: rgb(245, 229, 9);
+  text-align: center;
+}
+
+#thankyou .bg-image {
+  position: absolute;
+  background: #333 url('images/TowTruck_1edit.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#thankyou h1{
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#thankyou .content-wrap,
+#section-a {
+  padding: 0 1.5em;
+}
+
+#thankyou .btn {
+  display: inline-block;
+  background:  transparent;
+  color: rgb(245, 229, 9);
+  text-decoration: none;
+  padding: 1em 2em;
+ /* border: 1px solid #666;*/
+  margin: .5em 0;
+}
+#thankyou .btn:hover {
+  background: rgb(245, 229, 9);
+  color: #333;
+}
+
 /*Section A*/
 #section-a {
   background: #eaeaea;
