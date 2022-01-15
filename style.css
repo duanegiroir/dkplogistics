@@ -205,15 +205,17 @@ p {
 }
 #section-d .owner-info .admin{
   margin-block: 2em;
+  
 }
 
-#section-d .owner-info ul{
-  text-align: center;
+#section-d .owner-info p ul{
+  grid-column: span 2;
+ 
   margin:0;
   padding: 0;
 }
 
-#section-d .admin ul{
+#section-d .admin  p ul{
   text-align: center;
   margin:0;
   padding: 0;
