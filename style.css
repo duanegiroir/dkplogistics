@@ -58,7 +58,7 @@ p {
 
 #showcase .bg-image {
   position: absolute;
-  background: #333 url('images/Redtruck.jpg');
+  background: #333 url('images/Message_1644693709199.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,6 +220,9 @@ p {
   text-align: center;
   margin:0;
   padding: 0;
+}
+#section-d .establish p{
+  text-align: center;
 }
 
   
